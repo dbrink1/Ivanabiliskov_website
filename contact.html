@@ -7,7 +7,7 @@
 <body>
 
 <div>
-	<img id="Ivana" src="ivana_image.png" alt="Image of Ivana Biliskov" width = 100% >
+	<img id="Ivana_contact" src="ivana_image_contact.png" alt="Image of Ivana Biliskov" width = 100% >
 </div>
 
 <div>
@@ -16,6 +16,7 @@
 		<a class="buttons" href="bio.html"> Biography </a>
 		<a class="buttons" href="media.html"> Media </a>
 		<a class="buttons" href="gallery.html"> Gallery </a>
+		<a class="buttons" href="lesson_book.html"> Book a Lesson </a>
 		<a class="buttons" href="contact.html"> Contact </a>
 	</nav>
 </div>
@@ -39,25 +40,27 @@
 <h3 id="message_title"> Send Me a Message! </h3>
 
 <div id="send_message">
-<label> First Name* <input type="text" class="contact_me" name="first" placeholder="Enter First Name"required>
-</label>
-<p>
-<label> Last Name* <input type="text" class="contact_me" name="last" placeholder="Enter Last Name" required>
-</label>
+<p class="message_area">
+  <label> First Name <input type="text" class="contact_me" name="first" placeholder="Enter First Name"required>
+  </label>
 </p>
-<p>
+  <p class="message_area">
+  <label> Last Name <input type="text" class="contact_me" name="last" placeholder="Enter Last Name" required>
+  </label>
+</p>
+<p class="message_area">
 	<label> Phone # <input type="Phone" class="contact_me" name="phonenumber" placeholder="(###)###-####">
 	</label>
 </p>
-<p>
+<p class="message_area">
 	<label> Email Address <input type="email" class="contact_me" name="email" placeholder="E-mail">
 	</label>
 </p>
-<p>
-	<label> Message <textarea class="contact_me" placeholder="Enter Message Here" rows="10" columns="100"></textarea>
+<p class="message_area">
+	<label> Message <textarea class="contact_me" id="message_text_box"placeholder="Enter Message Here" rows="10" columns="100"></textarea>
 </p>
 <p>
-	<input type="submit" name="submit button" class="contact_me">
+	<input type="submit" name="submit button" class="contact_me" id="submit_button">
 </p>
 </div>
 
