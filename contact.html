@@ -3,11 +3,11 @@
 <head>
 	<title>Contact</title>
 </head>
-<link rel="stylesheet" type="text/css" href="Ivana.css">
+<link rel="stylesheet" type="text/css" href="Ivana_cello.css">
 <body>
 
 <div>
-	<img id="Ivana" src="FB_IMG_1489714131132.jpg" alt="Image of Ivana Biliskov" width = 100% >
+	<img id="Ivana" src="ivana_image.png" alt="Image of Ivana Biliskov" width = 100% >
 </div>
 
 <div>
@@ -36,24 +36,38 @@
 	</p>
 </div>
 
-<h3> Send Me a Message! </h3>
+<h3 id="message_title"> Send Me a Message! </h3>
 
-<input type="text" class="contact_me" name="first" placeholder="First Name" required>
-<input type="text" class="contact_me" name="last" placeholder="Last Name" required>
+<div id="send_message">
+<label> First Name* <input type="text" class="contact_me" name="first" placeholder="Enter First Name"required>
+</label>
 <p>
-	<input type="Phone" class="contact_me" name="phonenumber" placeholder="Phone Number" required>
-	<input type="email" class="contact_me" name="email" placeholder="Email Address" required>
+<label> Last Name* <input type="text" class="contact_me" name="last" placeholder="Enter Last Name" required>
+</label>
 </p>
 <p>
-	<textarea class="contact_me" placeholder="Enter Message Here..." rows="10" columns="25"></textarea>
+	<label> Phone # <input type="Phone" class="contact_me" name="phonenumber" placeholder="(###)###-####">
+	</label>
+</p>
+<p>
+	<label> Email Address <input type="email" class="contact_me" name="email" placeholder="E-mail">
+	</label>
+</p>
+<p>
+	<label> Message <textarea class="contact_me" placeholder="Enter Message Here" rows="10" columns="100"></textarea>
 </p>
 <p>
 	<input type="submit" name="submit button" class="contact_me">
 </p>
+</div>
 
-<p id="signature">
-	Website design by David Brink
+
+<div class="signature">
+<p>
+	<div>© 2020</div>
+	<div>Website design by David Brink</div>
 </p>
+</div>
 
 </body>
 </html>
