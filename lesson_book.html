@@ -2,14 +2,17 @@
 <html>
 <head>
 	<title>Book a Lesson</title>
+
+	<link rel="stylesheet" type="text/css" href="Ivana_cello.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
 </head>
-<link rel="stylesheet" type="text/css" href="Ivana_cello.css">
+
 <body>
-
-<div>
-	<img id="Ivana_home" src="ivana_image_lesson.png" alt="Image of Ivana Biliskov" width = 100% >
+<div id="Intro">
+	<h1> Ivana Biliskov </h1>
 </div>
-
 <div>
 	<nav>
 		<a class="buttons" href="Ivanawebsite.html"> Home </a>
@@ -19,6 +22,9 @@
 		<a class="buttons" href="lesson_book.html"> Book a Lesson </a>
 		<a class="buttons" href="contact.html"> Contact </a>
 	</nav>
+</div>
+<div>
+	<img id="Ivana_home" src="ivana_image_lesson.png" alt="Image of Ivana Biliskov" width = 100% >
 </div>
 
 <h3>Book a Lesson</h3>
@@ -67,7 +73,7 @@
 	</label>
 </p>
 	<p class="message_area">
-		<p class="message_area"> <strong>Lesson Availability </strong> </p>
+		<p id="lesson_availability_title"> <strong>Lesson Availability </strong> </p>
 		<label class="dropdown"> 1st Preferance
 			<select name="preferance_day" class="contact_me" required>
 				<option> Day </option>
